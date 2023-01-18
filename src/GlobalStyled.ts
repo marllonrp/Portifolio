@@ -7,7 +7,10 @@ export const GlobalStyled = createGlobalStyle`
     box-sizing:border-box; 
     transition:0.8s;
 }
+
 `;
+
+
 
 export const getIn = keyframes`
 0% {
