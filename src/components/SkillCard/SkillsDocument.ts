@@ -40,7 +40,7 @@ const javaScript: TSkills = {
 };
 
 const react: TSkills = {
-  name: "CSS",
+  name: "React",
   image: `${iconReact}`,
   level: 4,
   color: "#53d4ff",
@@ -92,8 +92,9 @@ arrayOfSkills.push(
   html,
   css,
   javaScript,
-  node,
   typeScript,
+  node,
+  react,
   chakra,
   github,
   english,
