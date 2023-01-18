@@ -10,7 +10,7 @@ export const SkillsPage = () => {
   const { darkMode, width } = constantes;
 
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <Title darkMode={darkMode} width={width}>
         Skills
       </Title>

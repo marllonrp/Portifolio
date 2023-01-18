@@ -10,7 +10,7 @@ export const ContactPage = ()=>{
     const {darkMode, width} = constantes
     
     return(
-        <ContactContainer darkMode={darkMode}>
+        <ContactContainer id="contact" darkMode={darkMode}>
             <Title darkMode={darkMode} width={width}>Contact</Title>
             <ContactWrapper width={width}>
             <TextContainer>
@@ -23,7 +23,7 @@ export const ContactPage = ()=>{
             <TextContact href="https://www.instagram.com/rp.marllon/"
             target={"_blank"} darkMode={darkMode} width={width}>|Instagram</TextContact>
             <Line width={width}/>
-            <TextContact href=""
+            <TextContact href="https://github.com/marllonrp/Portifolio"
             target={"_blank"} darkMode={darkMode} width={width}>|Repositório</TextContact>
             <Line width={width}/>
             </TextContainer>

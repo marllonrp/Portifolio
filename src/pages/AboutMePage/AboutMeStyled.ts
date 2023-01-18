@@ -1,7 +1,11 @@
 import styled from "styled-components";
+import { titleAnimation } from "../../GlobalStyled";
 const breakPoint: number = 640;
 
-export const AboutMeContainer = styled.section<{darkMode: boolean; width: number }>`
+export const AboutMeContainer = styled.section<{
+  darkMode: boolean;
+  width: number;
+}>`
   width: 100vw;
   height: 100vh;
   background-color: ${({ darkMode }) => (darkMode ? "black" : "white")};
@@ -31,14 +35,13 @@ export const ImageContainer = styled.article<{ width: number }>`
   display: flex;
   align-items: center;
   justify-content: center;
-  position:relative;
+  position: relative;
   filter: grayscale(90%);
   :hover {
     filter: grayscale(0%);
     transition: 2.5s !important;
-    } 
+  }
 `;
-
 
 export const Iframe = styled.iframe`
   width: 50%;
@@ -55,7 +58,6 @@ export const ImageWrapper = styled.div<{ darkMode: boolean; width: number }>`
   justify-content: space-evenly;
 `;
 
-
 export const TextContainer = styled.div<{ darkMode: boolean }>`
   width: 90%;
   height: 90%;
@@ -70,8 +72,10 @@ export const TextContainer = styled.div<{ darkMode: boolean }>`
 export const Title = styled.h1<{ darkMode: boolean; width: number }>`
   font-size: ${({ width }) => (width < breakPoint ? "26px" : "44px")};
   text-transform: uppercase;
+  font-weight: bold;
   color: ${({ darkMode }) => (darkMode ? "white" : "black")};
   letter-spacing: 5px;
+  animation: ${titleAnimation} 5s ease-in-out infinite;
 `;
 
 export const AboutMeTextContainer = styled.div<{
@@ -93,7 +97,6 @@ export const AboutMeText = styled.p<{ darkMode: boolean; width: number }>`
   font-weight: 600;
   color: ${({ darkMode }) => (darkMode ? "white" : "black")};
 `;
-
 
 export const DownloadButton = styled.button<{
   darkMode: boolean;
@@ -119,4 +122,5 @@ export const DownloadButton = styled.button<{
   :active {
     filter: brightness(50%);
   }
-`
+`;
+
