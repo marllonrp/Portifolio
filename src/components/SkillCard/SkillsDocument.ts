@@ -1,5 +1,5 @@
 import Html from "../../assets/IconHtml.png";
-import Css from "../../assets/IconCSS.png"
+import Css from "../../assets/IconCSS.png";
 import JS from "../../assets/IconJS.png";
 import iconReact from "../../assets/IconReact.png";
 import iconNode from "../../assets/Node.png";
