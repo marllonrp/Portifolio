@@ -13,7 +13,7 @@ export const Navigationbar = () => {
     <Navbar
       collapseOnSelect
       expand="sm"
-      bg={darkMode ? "black" : "white"}
+      bg="transparent"
       variant={darkMode ? "dark" : "light"}
     >
       <Navbar.Toggle
