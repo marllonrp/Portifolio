@@ -42,7 +42,7 @@ export const AboutMePage = () => {
             <AboutMeText width={width} darkMode={darkMode}>
               Estou em processo de transição de carreira e ainda não possuo
               experiência na área. Busco minha primeira oportunidade como Júnior
-              ou Trainee*, para atuar Home Office.
+              ou Trainee*, para atuar Home Office*.
             </AboutMeText>
             <AboutMeText width={width} darkMode={darkMode}>
               Em minha última experiência profissional como Técnico em
