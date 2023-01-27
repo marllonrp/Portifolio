@@ -20,7 +20,7 @@ export const AboutMePage = () => {
   const { constantes } = InitialState;
   const { darkMode, width } = constantes;
   const LinkDownload: string =
-    "http://bit.ly/3CUQqaW";
+    "https://bit.ly/3CUQqaW";
   const [download, setDownload] = useState("");
   const [count, setCount] = useState(0);
 
